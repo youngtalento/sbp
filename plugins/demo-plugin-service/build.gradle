@@ -1,0 +1,14 @@
+dependencies {
+    implementation 'org.laxture:sbp-core:0.1.13'
+    implementation "org.springframework.boot:spring-boot-starter-web"
+}
+
+//*************************************************************************
+// App Properties
+//*************************************************************************
+
+mainClassName = 'demo.sbp.service.ServicePluginStarter'
+
+manifest {
+    attributes 'Main-Class': 'demo.sbp.service.ServicePluginStarter'
+}

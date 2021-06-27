@@ -5,10 +5,12 @@ include 'sbp-core',
         'demo-api',
         'demo-plugin-author-api',
         'demo-app',
+        'demo-rest-webservice',
         'demo-plugin-author',
         'demo-plugin-shelf',
         'demo-plugin-library',
-        'demo-plugin-admin'
+        'demo-plugin-admin',
+        'demo-plugin-service'
 
 project(":demo-api").projectDir = file("demo-apis/demo-api")
 project(":demo-plugin-author-api").projectDir = file("demo-apis/demo-plugin-author-api")
@@ -17,3 +19,5 @@ project(":demo-plugin-author").projectDir = file("plugins/demo-plugin-author")
 project(":demo-plugin-shelf").projectDir = file("plugins/demo-plugin-shelf")
 project(":demo-plugin-library").projectDir = file("plugins/demo-plugin-library")
 project(":demo-plugin-admin").projectDir = file("plugins/demo-plugin-admin")
+project(":demo-plugin-service").projectDir = file("plugins/demo-plugin-service")
+

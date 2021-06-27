@@ -1,0 +1,19 @@
+dependencies {
+    compile project(':sbp-spring-boot-starter')
+
+
+    implementation "org.springframework.boot:spring-boot-starter-web"
+    implementation "io.springfox:springfox-boot-starter:3.0.0"
+    implementation "org.laxture:sbp-spring-boot-starter:0.1.13"
+    testImplementation "org.springframework.boot:spring-boot-starter-test"
+}
+
+//*************************************************************************
+// App Properties
+//*************************************************************************
+
+mainClassName = 'demo.sbp.webservice.RestApplication'
+
+manifest {
+    attributes 'Main-Class': 'demo.sbp.webservice.RestApplication'
+}

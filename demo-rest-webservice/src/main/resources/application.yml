@@ -1,0 +1,8 @@
+spring:
+  sbp:
+    runtimeMode: deployment
+    enabled: true
+    auto-start-plugin : true
+    plugins-root: extensions
+    controller:
+      base-path: sbpmanager
